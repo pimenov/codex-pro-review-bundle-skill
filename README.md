@@ -104,9 +104,25 @@ python3 pro-review-bundle/scripts/build_bundle.py \
 
 ## Inspiration
 
-Inspired by the broader practice of using a frontier model as a skeptical reviewer of high-context plans before execution, including Oracle-style context packaging workflows and GPT Pro review loops.
+This repo was prompted by Aniket Panjwani's public note about using GPT Pro more deliberately as a high-depth reviewer for complex work.
 
-This project is independent and not affiliated with OpenAI or any third-party workflow/tool mentioned above.
+What comes from that inspiration:
+
+- use GPT Pro as a skeptical second reviewer before execution
+- package enough context for a useful review
+- keep review separate from implementation approval
+
+What this repo adds:
+
+- an installable Codex skill
+- explicit risk tiers and a privacy gate
+- an allowlist-based bundle builder
+- secret and PII heuristics
+- a `COMPLETE` / `INCOMPLETE` bundle manifest
+- a post-review decision log
+- contribution and security guidance for public use
+
+This project is independent and does not copy code, prompts, or assets from Aniket Panjwani, OpenAI, or any third-party workflow/tool mentioned above.
 
 ## License
 
