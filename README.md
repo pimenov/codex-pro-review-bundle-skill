@@ -19,6 +19,8 @@ This skill creates a review packet with:
 
 The goal is not to outsource judgment. The goal is to make the judgment loop harder to fool.
 
+Contributions are welcome. Please use synthetic examples only and never include real secrets, client data, production logs, browser profiles, or personal data in issues or pull requests.
+
 ## Install
 
 Clone the repo and copy the skill folder into your Codex skills directory:
