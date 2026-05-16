@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pro Review Bundle"
+  short_description: "Package plans for safe GPT Pro review"
+  default_prompt: "Use $pro-review-bundle to package this complex plan for GPT Pro review before implementation."
